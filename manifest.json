@@ -1,4 +1,4 @@
-  {
+{
     "manifest_version": 3,
     "name": "Twitter-ISH",
     "version": "1.0.0",
@@ -19,7 +19,7 @@
     ],
 
     "web_accessible_resources": [{  
-      "resources": ["pic/head.png"],
+      "resources": ["pic/head.png","pic/said.png"],
       "matches": ["http://*/*","https://*/*"],
       "extension_ids": []
     }],
@@ -30,7 +30,3 @@
       "default_popup": "visual.html"
     }
   }
-
-  
-  
-  
