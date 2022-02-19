@@ -19,8 +19,16 @@ var elements = document.getElementsByClassName('_1SP8R C3uDN j9XKR  ');
     elements[0].insertAdjacentHTML("afterbegin", imgWithUrltwo);
 
 //メール風に宛先、件名等をつける
-document.querySelector("header ").insertAdjacentHTML('beforebegin', '<p>ランチを食べました</p>');
-
+//document.querySelector("header ").insertAdjacentHTML('afterend', '<p>ランチを食べました</p style= "position: fixed; margin-right:200px; margin-left:-300px; margin-top:50px; width: 250px; height: 700px; background-color: lightgray;"!important>>');
+document.querySelector("header ").insertAdjacentHTML('afterend', '<p style= "position: fixed; margin-right:0px; margin-left:200px; margin-top:-20px;"!important>はま寿司 &lt;hamazushi@gmai.com &gt;</p><p style= "position: fixed; margin-right:0px; margin-left:200px; margin-top:30px;"!important>【お知らせ】新ネタ販売のお知らせ');
+var element = document.getElementsByClassName('_8Rm4L bLWKA  M9sTE _1gNme  L_LMM SgTZ1  Tgarh ePUX4 ');
+  //インスタロゴ削除まで
+  while(element.length !=  0){
+    //インスタロゴ要素を削除
+    //追記はここから
+    console.log(element);
+    element[0].parentNode.removeChild(element[0]);
+}
 // インスタ用
 //要素の削除
 
