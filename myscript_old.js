@@ -1,3 +1,4 @@
+/*
 'use strict';
 const imagePath = 'pic/head.png';
 const imageUrl = chrome.runtime.getURL(imagePath);
